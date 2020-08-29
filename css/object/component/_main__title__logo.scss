@@ -1,0 +1,15 @@
+.main__title__logo{
+    font-family: $font_r;
+    font-weight: 700;
+    @include pc{
+        font-size: 40px;
+    };
+    @include tab{
+        font-size: 36px;
+    };
+    color: white;
+}
+
+.normal{
+    font-weight: 400;
+}
